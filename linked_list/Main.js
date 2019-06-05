@@ -18,12 +18,13 @@ const node3 = new Node(3);
 linkedList.addNode(node3);
 // console.log(linkedList);
 
-
-// linkedList.print(true);
-
 const node4 = new Node(4);
-linkedList.insert(1, node4);
+linkedList.insert(2, node4);
 
-console.log('after inserting node with given index...\n');
+linkedList.print(true);
+
+linkedList.delete(4);
+console.log('\n\nAfter deleting\n\n');
+
 linkedList.print(true);
 
