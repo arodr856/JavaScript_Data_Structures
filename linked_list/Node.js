@@ -5,6 +5,13 @@ class Node {
         this.previous = null;
     }
 
+    getValue(){
+        return this.value;
+    }
+
+    setValue(val){
+        this.value = value;
+    }
 
 }
 
